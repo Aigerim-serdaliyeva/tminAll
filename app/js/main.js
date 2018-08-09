@@ -208,7 +208,7 @@ $(document).ready(function () {
     navText: ['', ''],
     responsive: {
       0: { items: 1, mouseDrag: false, },
-      480: { items: 1, mouseDrag: true, },
+      480: { items: 2, mouseDrag: true, },
     },
   });
 
