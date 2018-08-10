@@ -325,7 +325,12 @@
   }
 
   .s-thanks {
-    padding: 150px 0 50px;
+    // padding: 150px 0 50px;
+
+    &__content {
+      background-image: none;
+      padding: 40px 0;
+    }
     
     &-title {
       font-size: 30px;
