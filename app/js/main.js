@@ -27,7 +27,7 @@ $(document).ready(function () {
 
   // jquery.maskedinput для ПК и планшет (мобильном не подключаем)
   if ($wnd.width() > 479) {
-    $("input[type=tel]").mask("+7 (999) 999 99 99", {
+    $("input[type=tel]").mask("879999999999", {
       completed: function () {
         $(this).removeClass('error');
       }
